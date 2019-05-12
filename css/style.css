@@ -1,6 +1,6 @@
 /*-----------------------------------------------------------------------------------
 
-	Theme Name: Canvas
+	Theme Name: Canvas 
 	Theme URI: http://themes.semicolonweb.com/html/canvas
 	Description: The Multi-Purpose Template
 	Author: SemiColonWeb
@@ -12066,7 +12066,7 @@ button.toast-close-button {
 /*Responsive Design*/
 @media all and (max-width: 240px) {
 	.slider-caption h2{
-		font-size: 0.5rem;
+		font-size: 0.5rem !important;
 		letter-spacing: 2px;
 		text-transform: uppercase;
 		font-weight: 700;
