@@ -1064,10 +1064,10 @@ body.stretched #header.full-header .container {
 
 #logo a.retina-logo { display: none;}
 
-#logo .retina-logo{
+/* #logo .retina-logo{
 	width: 50px;
 	height: 50px;
-}
+} */
 
 /* ----------------------------------------------------------------
 	Header Right Area
