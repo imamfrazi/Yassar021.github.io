@@ -1413,6 +1413,9 @@ body.stretched #header.full-header #primary-menu ul li.mega-menu .mega-menu-cont
 }
 
 #logo + #primary-menu.style-2 { border-top: 0; }
+#top-search img{
+	width: 100% !important;
+}
 
 #primary-menu.style-2 > div #top-search,
 #primary-menu.style-2 > div #top-cart,
