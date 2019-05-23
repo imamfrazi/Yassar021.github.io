@@ -23,6 +23,31 @@
 	============================================= -->
 	<title>Kumala Group</title>
 
+	<style>
+	
+		#top-search .lang-button {
+			height: 30px!important;
+			line-height: 30px!important;	
+			border: 1px solid #0053a0;
+			margin-top: 20px;
+			display: block;
+		}
+
+		#top-search .lang-button span.active {
+			background: #0053a0;
+			color: #fff;
+		}
+		#top-search .lang-button span {
+			display: block;
+			float: left;
+			width: 30px;
+			text-align: center;
+			color: #0053a0;
+			height: 30px;
+		}
+
+	</style>
+
 </head>
 
 <body class="stretched">
@@ -45,7 +70,9 @@
 					============================================= -->
 					<div id="logo">
 						<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo/logo.png" alt="Canvas Logo"></a>
-						<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo/logo.png" alt="Canvas Logo"></a>
+						<div class="retina-logo">
+							<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo/logo.png" alt="Canvas Logo"></a>			
+						</div>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
@@ -106,8 +133,10 @@
 
 						<!-- Top Search
 						============================================= -->
-						<div id="top-search">
-							<a href="#"><img src="https://cdn.pixabay.com/photo/2017/10/31/23/52/england-2906827__340.png" style="width: 50px; heigh:50px;"></a>
+						<div id="top-search"  style="margin: 0 0 0 15px;">
+								<a href="#" class="lang-button"> <span class="active">ID</span> <span>EN</span> </a>
+								<!-- <a href="#"><span style="float:right;border-radius:2px;color:#fff;background-color: #C02942;padding-top:5px;padding-left:5px;padding-right:5px;padding-bottom:5px; letter-spacing: 1px;">EN</span></a> -->
+								<!-- <a href="#"><span style="border-color:#C02942;border-radius:2px;color:#C02942;background-color: #fff;padding-top:5px;padding-left:5px;padding-right:5px;padding-bottom:5px; letter-spacing: 1px;">ID</span></a> -->
 						</div><!-- #top-search end -->
 
 					</nav><!-- #primary-menu end -->
@@ -170,7 +199,7 @@
 					<div class="heading-block notopmargin notopborder center">
 							<h3 data-animate="fadeInDown">Tentang Kami </h3>
 							<!-- <span>We have worked on some Awesome Projects that are worth boasting of.</span> -->
-						</div>
+					</div>
 
 					<div class="container clearfix">
 
@@ -195,54 +224,64 @@
 						</div>
 						
 						<div class="container clear-bottommargin clearfix">
-							
-							<div class="col_one_fourth bottommargin">
-								<div class="feature-box media-box" data-animate="fadeInDownBig">
-									<div class="fbox-media">
-										<a href="#"><img  class="image_fade" src="https://images.unsplash.com/photo-1471174617910-3e9c04f58ff5?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Why choose Us?"></a>
-									</div>
-									<div class="fbox-desc center">
-										<h3>Otomotif</h3>
-									</div>
-								</div>
-							</div>
-
-							<div class="col_one_fourth bottommargin">
-								<div class="feature-box media-box" data-animate="fadeInDownBig">
-									<div class="fbox-media">
-										<a href="#"><img class="image_fade" src="https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=753&q=80" alt="Why choose Us?"></a>
-									</div>
-									<div class="fbox-desc center">
-										<h3>Properties</h3>
-									</div>
-								</div>
-							</div>
-
-							<div class="col_one_fourth bottommargin">
+								<div class="col_one_fourth nobottommargin">
 									<div class="feature-box media-box" data-animate="fadeInDownBig">
-										<div class="fbox-media">
-											<a href="#"><img class="image_fade" src="https://images.unsplash.com/photo-1535320903710-d993d3d77d29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Why choose Us?"></a>
-										</div>
-										<div class="fbox-desc center">
-											<h3>Trading</h3>
+										<div class="flip">
+											<div class="front" style="background-image: url(https://images.unsplash.com/photo-1474244896358-ce3784088cc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80)">
+												<h1 class="text-shadow">Otomotif</hi>
+											</div>
+											<div class="back">
+												<h2>Otomotif</h2>
+												<p>Good tools make application development quicker and easier to maintain than if you did everything by hand.<a href="otomotif.html">Read more</a></p>
+											</div>
 										</div>
 									</div>
 								</div>
 
-							<div class="col_one_fourth bottommargin col_last">
-								<div class="feature-box media-box" data-animate="fadeInDownBig">
-									<div class="fbox-media">
-										<a href="#"><img  class="image_fade" src="https://images.unsplash.com/photo-1523848309072-c199db53f137?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80)" alt="Why choose Us?"></a>
-									</div>
-									<div class="fbox-desc center">
-										<h3>Mining</h3>
+								<div class="col_one_fourth nobottommargin">
+									<div class="feature-box media-box" data-animate="fadeInDownBig">
+										<div class="flip">
+											<div class="front" style="background-image: url(https://images.unsplash.com/photo-1522050212171-61b01dd24579?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80)">
+											<h1 class="text-shadow">Properties</hi>
+											</div>
+											<div class="back">
+											<h2>Properties</h2>
+											<p>Good tools make application development quicker and easier to maintain than if you did everything by hand...<a href="#">Read more</a></p>
+											</div>
+										</div>
 									</div>
 								</div>
-							</div>
+								<div class="col_one_fourth nobottommargin">
+										<div class="feature-box media-box" data-animate="fadeInDownBig">
+											<div class="flip">
+												<div class="front" style="background-image: url(https://images.unsplash.com/photo-1523841589119-b55aee0f66e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)">
+												<h1 class="text-shadow">Trading</hi>
+												</div>
+												<div class="back">
+												<h2>Trading</h2>
+												<p>Good tools make application development quicker and easier to maintain than if you did everything by hand. <a href="#">Readmore.</a></p>
+												</div>
+											</div>
+										</div>
+									</div>
 
+								<div class="col_one_fourth nobottommargin col_last">
+									<div class="feature-box media-box" data-animate="fadeInDownBig">
+										<div class="flip">
+											<div class="front" style="background-image: url(https://images.unsplash.com/photo-1523848309072-c199db53f137?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80)">
+											<h1 class="text-shadow">Mining<i class="baseline-warning"></i></hi>
+											</div>
+											<div class="back">
+											<h2>Mining</h2>
+											<p>Good tools make application development quicker and easier to maintain than if you did everything by hand. <a  href="#">Read more</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
 						</div>
-						</div>					
-					</div>
+
+				
+					</div>					
 
 
 
@@ -250,7 +289,7 @@
 
 					<div class="container clearfix">
 						<div class="heading-block center">
-							<h3  data-animate="fadeInDown">Berita</h3>
+							<h3  data-animate="fadeInDown">Berita & Promosi</h3>
 						</div>
 					</div>
 
@@ -265,7 +304,7 @@
 									</div>
 									<ul class="entry-meta clearfix">
 										<li><i class="icon-calendar3"></i> 8 Mei 2019</li>
-										<li><a href="blog-single.html#comments"><i class="icon-comments"></i> 53</a></li>
+										<li><span class="badge badge-secondary">Berita</span></li>
 									</ul>
 									<div class="entry-content">
 										<p>Prevention effect, advocate dialogue rural development lifting people up community civil society. Catalyst, grantees leverage <a href="detail_berita.html">Lebih lanjut. </a></p>
@@ -283,7 +322,7 @@
 									</div>
 									<ul class="entry-meta clearfix">
 										<li><i class="icon-calendar3"></i> 8 Mei 2019</li>
-										<li><a href="blog-single.html#comments"><i class="icon-comments"></i> 53</a></li>
+										<li><span class="badge badge-info">Promosi</span></li>
 									</ul>
 									<div class="entry-content">
 										<p>Cross-agency coordination clean water rural, promising development turmoil inclusive education transformative community <a href="#">Lebih lanjut. </a></p>
@@ -301,7 +340,7 @@
 									</div>
 									<ul class="entry-meta clearfix">
 										<li><i class="icon-calendar3"></i> 8 Mei 2019</li>
-										<li><a href="blog-single.html#comments"><i class="icon-comments"></i> 53</a></li>
+										<li><span class="badge badge-secondary">Berita</span></li>
 									</ul>
 									<div class="entry-content">
 										<p>Micro-finance; vaccines peaceful contribution citizens of change generosity. Measures design thinking accelerate progress medical initiative <a href="#">Lebih lanjut.</a></p>
@@ -319,14 +358,21 @@
 									</div>
 									<ul class="entry-meta clearfix">
 										<li><i class="icon-calendar3"></i> 8 Mei 2019</li>
-										<li><a href="blog-single.html#comments"><i class="icon-comments"></i> 53</a></li>
+										<li><span class="badge badge-info">Promosi</span></li>
 									</ul>
 									<div class="entry-content">
 										<p>Community health workers best practices, effectiveness meaningful work The Elders fairness. Our ambitions local solutions globalization <a href="#">Lebih lanjut. </a></p>
 									</div>
 								</div>
 							</div>
+
 					</div>
+
+					<div class="row topmargin center">
+                        <div class="col-12 topmargin">
+                           	<a href="listberita.html" class="button button-3d button-small button-rounded button-brown">Selengkapnya!</a>
+                        </div>
+                    </div>
 
 				</div>
 
@@ -334,7 +380,7 @@
 
 					<div class="container clearfix">	
 
-							<div class="col_three_fifth">
+						 <div class="col_three_fifth">
 
 							<div class="heading-block">
 								<h3  data-animate="fadeInDown">Ayo <span>Bergabung</span> bersama Kami!</h3>
@@ -392,11 +438,11 @@
 						<div class="oc-item"><a href="#"><img src="images/clients/2.png" alt="Clients"></a></div>
 						<div class="oc-item"><a href="#"><img src="images/clients/3.png" alt="Clients"></a></div>
 						<div class="oc-item"><a href="#"><img src="images/clients/4.png" alt="Clients"></a></div>
-						<div class="oc-item"><a href="#"><img src="images/clients/5.png" alt="Clients"></a></div>
+						<!-- <div class="oc-item"><a href="#"><img src="images/clients/5.png" alt="Clients"></a></div>
 						<div class="oc-item"><a href="#"><img src="images/clients/6.png" alt="Clients"></a></div>
 						<div class="oc-item"><a href="#"><img src="images/clients/7.png" alt="Clients"></a></div>
 						<div class="oc-item"><a href="#"><img src="images/clients/8.png" alt="Clients"></a></div>
-						<div class="oc-item"><a href="#"><img src="images/clients/9.png" alt="Clients"></a></div>
+						<div class="oc-item"><a href="#"><img src="images/clients/9.png" alt="Clients"></a></div> -->
 					</div>
 
 				</div>
@@ -423,16 +469,7 @@
 							<p>Didirikan pada tahun 1991, Kumala Motor Group adalah salah satu perusahaan bisnis terbesar di sisi timur Indonesia. Kumala Motor Group membangun perusahaan yang kompetitif dengan mengembangkan kerjasama yang saling menguntungkan antara merek-merek terkemuka nasional dan internasional di berbagai bidang. 
 								<a href="#">Lebih lanjut.</a></p>
 
-							<div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
-								<address>
-									<strong>Contact Us: </strong><br>
-									Jl.A.Mappanyukki No.2 <br>
-									Makassar, Sulawesi Selatan, Indonesia<br>
-								</address>
-								<abbr title="Phone Number"><strong>Telepon:</strong></abbr> ((0431) 871-408<br>
-								<abbr title="Email Address"><strong>Email:</strong></abbr> administrator@kumalamotor.com
-							</div>
-
+							
 						</div>
 
 					</div>
@@ -440,49 +477,16 @@
 					<div class="col_one_third">
 
 						<div class="widget clearfix">
-							<h4>Testimonial Client</h4>
+							<h4>Hubungi Kami</h4>
 
-							<div class="fslider testimonial no-image nobg noborder noshadow nopadding" data-animation="slide" data-arrows="false">
-								<div class="flexslider">
-									<div class="slider-wrap">
-										<div class="slide">
-											<div class="testi-image">
-												<a href="#"><img src="images/testimonials/3.jpg" alt="Customer Testimonails"></a>
-											</div>
-											<div class="testi-content">
-												<p>Similique fugit repellendus expedita excepturi iure perferendis provident quia eaque. Repellendus, vero numquam?</p>
-												<div class="testi-meta">
-													Ahmad Muyassar
-													<span>Apple Inc.</span>
-												</div>
-											</div>
-										</div>
-										<div class="slide">
-											<div class="testi-image">
-												<a href="#"><img src="images/testimonials/2.jpg" alt="Customer Testimonails"></a>
-											</div>
-											<div class="testi-content">
-												<p>Natus voluptatum enim quod necessitatibus quis expedita harum provident eos obcaecati id culpa corporis molestias.</p>
-												<div class="testi-meta">
-													Ainur Rahmat
-													<span>Envato Inc.</span>
-												</div>
-											</div>
-										</div>
-										<div class="slide">
-											<div class="testi-image">
-												<a href="#"><img src="images/testimonials/1.jpg" alt="Customer Testimonails"></a>
-											</div>
-											<div class="testi-content">
-												<p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum!</p>
-												<div class="testi-meta">
-													Suharmin Rais
-													<span>XYZ Inc.</span>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
+							<div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
+								<address>
+									<strong>Alamat :</strong><br>
+									Jl.A.Mappanyukki No.2 <br>
+									Makassar, Sulawesi Selatan, Indonesia<br>
+								</address>
+								<abbr title="Phone Number"><strong>Telepon:</strong></abbr> ((0431) 871-408<br>
+								<abbr title="Email Address"><strong>Email:</strong></abbr> administrator@kumalamotor.com
 							</div>
 
 						</div>
