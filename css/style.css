@@ -985,11 +985,11 @@ html[xmlns] .slider-wrap {display: block;}
 	border-radius: 2px;
 }
 
-#header.transparent-header.floating-header.sticky-header .container {
+/* #header.transparent-header.floating-header.sticky-header .container {
 	width: 1140px;
 	max-width: 1140px;
 	padding: 0 15px;
-}
+} */
 
 #header.transparent-header + #slider,
 #header.transparent-header + #page-title.page-title-parallax,
@@ -1015,7 +1015,7 @@ html[xmlns] .slider-wrap {display: block;}
 body.stretched #header.full-header .container {
 	width: 100%;
 	max-width: none;
-	padding: 0 30px;
+	padding: 0 5px;
 }
 
 #header.transparent-header.full-header #header-wrap { border-bottom: 1px solid rgba(0,0,0,0.1); }
@@ -1057,7 +1057,7 @@ body.stretched #header.full-header .container {
 	max-width: 150px;
 	height: 70px;
 	/* max-height: 350px; */
-	margin: 10px 10px 10px 10px;
+	margin: 13px 10px 10px 10px;
 }
 
 #logo a.standard-logo { display: block;}
@@ -1117,7 +1117,7 @@ body.stretched #header.full-header .container {
 -----------------------------------------------------------------*/
 
 
-#primary-menu { float: right; }
+#primary-menu { float: right; margin-right: 25px;}
 
 #primary-menu ul.mobile-primary-menu { display: none; }
 
@@ -1146,6 +1146,7 @@ body.stretched #header.full-header .container {
 	-webkit-transition: opacity .3s ease;
 	-o-transition: opacity .3s ease;
 	transition: opacity .3s ease;
+	margin-left: 300px;
 }
 
 #primary-menu ul {
@@ -1420,7 +1421,7 @@ body.stretched #header.full-header #primary-menu ul li.mega-menu .mega-menu-cont
 
 #logo + #primary-menu.style-2 { border-top: 0; }
 #top-search img{
-	width: 100% !important;
+	margin-top: 30px;
 }
 
 #primary-menu.style-2 > div #top-search,
@@ -1828,7 +1829,7 @@ body:not(.device-md):not(.device-sm):not(.device-xs) #primary-menu.style-2.cente
 
 #top-cart { position: relative; }
 
-#top-search a,
+/* #top-search a, */
 #top-cart > a,
 #side-panel-trigger a {
 	display: block;
@@ -12171,7 +12172,14 @@ button.toast-close-button {
 		right: 0.2em;
 	}
 	}
-@media all and (min-width: 241px) and (max-width: 480px) {
+@media all and (min-width: 350px) and (max-width: 480px) {
+	#top-search img{
+		margin-top: 0 !important;
+		margin-right: 10px;
+		width: 20px;
+		height: 20px;
+		
+	}
 	.flip {
 		position: relative;
 		display: inline-block;
@@ -12195,6 +12203,7 @@ button.toast-close-button {
 		padding: 10px 10px 10px 10px;
 		width: 200px;
 		height: 80px;
+		margin: 10px 10px 10px -120px;
 	}
 	#toast-container > div {
 		padding: 10px 15px;
@@ -12209,7 +12218,19 @@ button.toast-close-button {
 		right: 0.2em;
 	}
 }
-@media all and (min-width: 481px) and (max-width: 768px) {
+@media all and (min-width: 400px) and (max-width: 768px) {
+	#logo img{
+		padding: 10px 10px 10px 10px;
+		width: 200px;
+		height: 80px;
+		margin: 13px 10px 10px -135px;
+	}
+	#primary-menu-trigger{
+		margin-left: 345px !important;
+	}
+	#top-search img{
+		margin-top: 0 !important;
+	}
 	#toast-container > div {
 		padding: 15px 20px;
 		width: 25em;
