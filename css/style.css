@@ -1057,7 +1057,7 @@ body.stretched #header.full-header .container {
 	max-width: 150px;
 	height: 70px;
 	/* max-height: 350px; */
-	margin: 13px 10px 10px -20px;
+	margin: 14px 10px 10px -20px;
 }
 
 #logo a.standard-logo { display: block;}
@@ -1146,7 +1146,7 @@ body.stretched #header.full-header .container {
 	-webkit-transition: opacity .3s ease;
 	-o-transition: opacity .3s ease;
 	transition: opacity .3s ease;
-	margin-left: 300px;
+	margin-left: 320px;
 }
 
 #primary-menu ul {
@@ -1824,7 +1824,7 @@ body:not(.device-md):not(.device-sm):not(.device-xs) #primary-menu.style-2.cente
 #side-panel-trigger,
 #top-account {
 	float: right;
-	margin: 40px 0 40px 15px;
+	margin: 5px 0 0px 15px;
 }
 
 #top-cart { position: relative; }
@@ -12226,7 +12226,7 @@ button.toast-close-button {
 		margin: 13px 10px 10px -135px;
 	}
 	#primary-menu-trigger{
-		margin-left: 345px !important;
+		margin-left: 365px !important;
 	}
 	#top-search img{
 		margin-top: 0 !important;

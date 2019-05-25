@@ -1549,7 +1549,7 @@
 		padding-right: 40px !important;
 	}
 
-	#primary-menu-trigger { left: 15px; margin-top: 2px;} 
+	#primary-menu-trigger { left: 1px; margin-top: 2px;} 
 
 	#top-cart { display: none; }
 
@@ -1736,7 +1736,7 @@
 	#top-account a.btn i:last-child { display: none; }
 
 	.swiper_wrapper:not(.force-full-screen),
-	.swiper_wrapper:not(.force-full-screen):not(.canvas-slider-grid) .swiper-slide { height: 180px !important; }
+	/* .swiper_wrapper:not(.force-full-screen):not(.canvas-slider-grid) .swiper-slide { height: 180px !important; }	 */
 
 	.swiper_wrapper .slider-caption h2 { font-size: 1.75rem; }
 
