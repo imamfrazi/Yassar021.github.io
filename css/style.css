@@ -1861,7 +1861,11 @@ body:not(.device-md):not(.device-sm):not(.device-xs) #primary-menu.style-2.cente
 	float: left;
 	margin: 20px 0 0 15px;
 }
-#top-search a{
+/* #top-search a{
+	text-decoration: none;
+}  */
+
+#top-search a {
 	text-decoration: none;
 }
 

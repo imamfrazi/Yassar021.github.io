@@ -40,7 +40,7 @@
 .navbar-expand-lg .navbar-nav .nav-item:not(.active) .nav-link { color: #444; }
 
 .navbar-expand-lg .navbar-nav .nav-item:hover .nav-link { color: var(--themecolor) }
-
+/* 
 #primary-menu ul li > a {
 	text-transform: none;
 	font-weight: 400;
@@ -69,7 +69,7 @@
 	-webkit-transition: all .4s ease;
 	-o-transition: all .4s ease;
 	transition: all .4s ease;
-}
+} */
 
 /* Text Rotater
 ---------------------------------------------------------------------------- */
@@ -151,7 +151,7 @@
 /* Badge
 ---------------------------------------------------------------------------- */
 .badge {
-	font-size: ;
+	/* font-size: ; */
 	padding: 8px 12px;
 	border: 0;
 	border-radius: 3px;
