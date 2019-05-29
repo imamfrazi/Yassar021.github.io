@@ -17,7 +17,12 @@
 	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
 
 	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!-- Hosting Demo Specific Stylesheet -->
+	<link rel="stylesheet" href="css/course/css/fonts.css" type="text/css" />
+	<link rel="stylesheet" href="css/course/course.css" type="text/css" />
+	<!-- / -->
 
 	<!-- Document Title
 	============================================= -->
@@ -45,7 +50,9 @@
 					============================================= -->
 					<div id="logo">
 						<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo/logo.png" alt="Canvas Logo"></a>
-						<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo/logo.png" alt="Canvas Logo"></a>
+						<div class="retina-logo">
+							<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo/logo.png" alt="Canvas Logo"></a>			
+						</div>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
@@ -62,7 +69,7 @@
 									<li><a href="#"><div><i class="icon-wpforms"></i>BOD</div></a></li>
 								</ul>
 							</li>
-							<li class="mega-menu"><a href="#"><div>Unit Bisnis</div></a>
+							<li class="mega-menu current"><a href="#"><div>Unit Bisnis</div></a>
 								<div class="mega-menu-content style-2 clearfix">
 									<ul class="mega-menu-column col-lg-3">
 										<li class="mega-menu-title"><a href="#"><div>Otomotif</div></a>
@@ -97,9 +104,9 @@
 									</ul>
 								</div>
 							</li>
-              				<li class="mega-menu"><a href="listberita.html"><div>Berita</div></a></li>
+                            <li class="mega-menu"><a href="listberita.html"><div>Berita</div></a></li>
 							<li class="mega-menu"><a href="karir.html"><div>Karir</div></a></li>
-							<li class="mega-menu current"><a href="kontak.html"><div>Kontak</div></a></li>
+							<li><a href="kontak.html"><div>Kontak</div></a></li>
 						</ul>
 
 
@@ -125,65 +132,62 @@
 		<section id="page-title">
 
 			<div class="container clearfix">
-				<h1>Kontak</h1>
-				<!-- <span>Berita Terkini</span> -->
-				<ol class="breadcrumb">
-					<li class="breadcrumb-item"><a href="#">Home</a></li>
-					<li class="breadcrumb-item active" aria-current="page">Kontak</li>
-				</ol>
+				<h1>Hotel 2 Lantai</h1>
+				<!-- <div id="portfolio-navigation">
+					<a href="#"><i class="icon-angle-left"></i></a>
+					<a href="#"><i class="icon-line-grid"></i></a>
+					<a href="#"><i class="icon-angle-right"></i></a>
+				</div> -->
 			</div>
 
 		</section><!-- #page-title end -->
+
 
 		<!-- Content
 		============================================= -->
 		<section id="content">
 
-			<div class="heading-block topmargin notopborder center">
-				<h3 data-animate="fadeInDown">Hubungi Kami </h3>
+			<div class="content-wrap">
+				
+                <div class="container clearfix	">
+
+					<!-- Portfolio Single Video
+					============================================= -->
+					<div class="col_two_third portfolio-single-image bottommargin">
+						<img src="https://images.unsplash.com/photo-1444201983204-c43cbd584d93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" width="500" height="300" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></img>
+					</div><!-- .portfolio-single-image end -->
+
+					<!-- Portfolio Single Content
+					============================================= -->
+					<div class="col_one_third portfolio-single-content col_last bottommargin">
+
+						<!-- Portfolio Single - Description
+						============================================= -->
+						<div class="fancy-title title-bottom-border">
+							<h2>Info:</h2>
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, dolores, facere, corrupti delectus ex quidem adipisci tempore.</p>
+						<p>Illum molestias cupiditate eveniet dolore obcaecati voluptatibus est quos eos id recusandae officia.</p>
+						<!-- Portfolio Single - Description End -->
+
+						<div class="line"></div>
+
+						<!-- Portfolio Single - Meta
+						============================================= -->
+						<ul class="portfolio-meta bottommargin">
+							<li><span><i class="icon-calendar3"></i>Waktu</span> 17 Maret 2019</li>
+							<!-- <li><span><i class="icon-link"></i>Client:</span> <a href="#">Google</a></li> -->
+						</ul>
+						<!-- Portfolio Single - Meta End -->
+
+						
+					</div><!-- .portfolio-single-content end -->
+
+				</div>
+
+
 			</div>
 
-            <div class="container">
-                <div class="col">
-                    <form>
-                            <div class="form-group">
-								<label for="nama">Nama</label>
-								<input type="text" class="form-control" id="nama" placeholder="Masukkan nama anda">
-							</div>
-							<div class="form-row">
-								<div class="form-group col-md-6">
-									<label for="email">Email</label>
-									<input type="email" class="form-control" id="email" placeholder="Masukkan Email anda">
-								</div>
-								<div class="form-group col-md-6">
-									<label for="inputPassword4">Password</label>
-									<input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="alamat">Alamat</label>
-								<input type="text" class="form-control" id="alamat" placeholder="Masukkan alamat anda">
-							</div>
-							<div class="form-group">
-								<label for="notelp">Telepon</label>
-								<input type="text" class="form-control" id="notelp" placeholder="Masukkan no telepon anda">
-                            </div>
-                            <div class="form-group">
-								<label for="pesan">Pesan</label>
-								<textarea class="form-control" id="pesan" rows="3"></textarea>
-							</div>
-							<div class="form-group">
-								<div class="form-check">
-									<input class="form-check-input" type="checkbox" id="gridCheck">
-									<label class="form-check-label" for="gridCheck">
-										<small>Setujui ketentuan dan persyaratan</small>
-									</label>
-								</div>
-							</div>
-                            <button type="submit" id="quick-contact-form-submit" name="quick-contact-form-submit" class="button button-3d button-small button-rounded button-red" value="submit">Kirim</button>
-						</form>
-                </div>
-            </div>
 		</section><!-- #content end -->
 
 		<!-- Footer

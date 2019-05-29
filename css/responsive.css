@@ -551,7 +551,7 @@
 		top: 0;
 		left: auto;
 		right: 15px;
-		margin: 40px 0;
+		margin: 20px 0;
 		-webkit-transition: margin .4s ease;
 		-o-transition: margin .4s ease;
 		transition: margin .4s ease;
@@ -595,7 +595,7 @@
 
 	#header.sticky-style-3 #top-cart .top-cart-content { top: 40px; }
 
-	#top-search a { right: 43px; }
+	#top-search a { right: 55px; }
 
 	#top-search form { height: 100px !important; }
 
@@ -1553,7 +1553,7 @@
 
 	#top-cart { display: none; }
 
-	#top-search a { right: 40px; }
+	#top-search a { right: 55px; }
 
 	#top-search form input { padding-right: 55px; }
 
