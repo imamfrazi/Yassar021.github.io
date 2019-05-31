@@ -81,14 +81,9 @@
 					<nav id="primary-menu">
 
 						<ul>
-							<li><a href="index.html"><div>Home</div></a>
+							<li><a href="index.html"><div>Beranda</div></a>
 							</li>
 							<li><a href="tentang.html"><div>Tentang Kami</div></a>
-								<ul>
-									<li><a href="#"><div><i class="icon-gift"></i>Sejarah</div></a></li>
-									<li><a href="#"><div><i class="icon-umbrella"></i>Visi & Misi</div></a></li>
-									<li><a href="#"><div><i class="icon-wpforms"></i>BOD</div></a></li>
-								</ul>
 							</li>
 							<li class="mega-menu current"><a href="#"><div>Unit Bisnis</div></a>
 								<div class="mega-menu-content style-2 clearfix">
@@ -220,6 +215,7 @@
 															<div class="form-group">
 																<label for="exampleFormControlSelect1">Jenis Kelamin</label>
 																<select class="form-control" id="exampleFormControlSelect1">
+																	<option>--Pilih disini--</option>
 																	<option>Laki-laki</option>
 																	<option>Perempuan</option>
 																</select>
@@ -236,18 +232,7 @@
 																<label for="daerah">Daerah di kota anda: </label>
 																<input type="text" class="form-control" id="daerah" placeholder="daerah di kota anda">
 															</div>
-															<div class="form-group">
-																<label for="kotakantor">Kota kantor anda: </label>
-																<input type="text" class="form-control" id="kotakantor" placeholder="Kota kantor anda">
-															</div>
-															<div class="form-group">
-																<label for="alamatkantor">Alamat kantor anda: </label>
-																<input type="text" class="form-control" id="alamatkantor" placeholder="Alamat kantor anda">
-															</div>
-															<div class="form-group">
-																<label for="notelpkantor">No Telepon kantor anda: </label>
-																<input type="text" class="form-control" id="notelpkantor" placeholder="No telepon kantor anda">
-															</div>
+				
 															<div class="form-group">
 																<div class="form-check">
 																	<input class="form-check-input" type="checkbox" id="gridCheck">
@@ -277,11 +262,11 @@
 													<div class="modal-body">
 														<form>
 															<div class="form-group">
-																<label for="namalengkap">Nama Lengkap: </label>
-																<input type="text" class="form-control" id="namalengkap" placeholder="Nama Lengkap anda">
+																<label for="nama">Nama: </label>
+																<input type="text" class="form-control" id="nama" placeholder="Nama Lengkap anda">
 															</div>
 															<div class="form-group">
-																<label for="email">Email :</label>
+																<label for="email">Email:</label>
 																<input type="text" class="form-control" id="email" placeholder="Email anda">
 															</div>
 															<div class="form-group">
@@ -289,37 +274,99 @@
 																<input type="text" class="form-control" id="nohp" placeholder="No Telepon anda">
 															</div>
 															<div class="form-group">
-																<label for="exampleFormControlSelect1">Rincian Pembelian</label>
-																<select class="form-control" id="exampleFormControlSelect1">
-																	<option>0-1 Bulan</option>
-																	<option>0-2 Bulan</option>
-																	<option>0-3 Bulan</option>
+																<label for="usia"> Usia: </label>
+																<input type="text" class="form-control" id="usia" placeholder="Usia anda">
+															</div>
+															<div class="form-group">
+																<label for="kota"> Asal Kota: </label>
+																<input type="text" class="form-control" id="kota" placeholder="Asal kota anda">
+															</div>
+															<div class="form-group">
+																<label for="statustempattinggal"> Status tempat tinggal: </label>
+																<select class="form-control" id="statustempattinggal">
+																	<option>--Pilih disini--</option>
+																	<option>Rumah sendiri</option>
+																	<option>Rumah orang tua</option>
+																	<option>Sewa/Kontrak</option>
+																	<option>Lainnya</option>
 																</select>
 															</div>
 															<div class="form-group">
-																<label for="exampleFormControlSelect1">Pilih Mobil*</label>
-																<select class="form-control" id="exampleFormControlSelect1">
-																	<option>Honda CX-5</option>
-																	<option>Mercedez Benz</option>
-																	<option>Hino</option>
+																<label for="pekerjaan">Pekerjaan:</label>
+																<select class="form-control" id="pekerjaan">
+																	<option>--Pilih disini--</option>
+																	<option>PNS/POLRI/TNI/BUMN</option>
+																	<option>Wiraswasta/Pengusaha</option>
+																	<option>Pegawai Swasta</option>
+																	<option>Proffesional/Pengacara/Praktisi Hukum</option>
+																	<option>Lainnya</option>
 																</select>
 															</div>
 															<div class="form-group">
-																<label for="exampleFormControlSelect1">Pilih Kota</label>
+																<label for="exampleFormControlSelect1">Lama bekerja:</label>
 																<select class="form-control" id="exampleFormControlSelect1">
-																	<option>Makassar</option>
-																	<option>Gorontalo</option>
-																	<option>Manado</option>
+																	<option>--Pilih disini--</option>
+																	<option> < 6 bulan </option>
+																	<option>6 bulan - 1 tahun</option>
+																	<option>1 - 3 tahun</option>
+																	<option> > 3 tahun</option>
+																	<option>Lainnya</option>
 																</select>
 															</div>
 															<div class="form-group">
+																<label for="kisaran">Kisaran Harga Mobil yang diminati:</label>
+																<select class="form-control" id="kisaran">
+																	<option>--Pilih disini--</option>
+																	<option>100.000.000 – 150.000.000</option>
+																	<option>150.000.000 – 250.000.000</option>
+																	<option>250.000.000 – 350.000.000</option>
+																	<option>350.000.000 – 450.000.000</option>
+																	<option> > 450.000.000</option>
+																	<option>lainnya</option>
+																</select>
+															</div>
+															<div class="form-group">
+																<label for="segmen">Segment Mobil yang diminati:</label>
+																<select class="form-control" id="segmen">
+																	<option>--Pilih disini--</option>
+																	<option>LGCC</option>
+																	<option>City Car</option>
+																	<option>MPV</option>
+																	<option>SUV</option>
+																	<option>Roadster</option>
+																	<option>Crossover</option>
+																	<option>Sedan</option>
+																	<option>Estate</option>
+																</select>
+															</div>
+															<div class="form-group">
+																<label for="rencana">Rencana waktu untuk pembelian mobil:</label>
+																<select class="form-control" id="rencana">
+																	<option>--Pilih disini--</option>
+																	<option>Bulan ini</option>
+																	<option>1-2 bulan</option>
+																	<option>> 3 bulan</option>
+																	<option>Lainnya</option>
+																</select>
+															</div>
+															<div class="form-group">
+																<label for="info">Informasi yang dibutuhkan:</label>
+																<select class="form-control" id="info">
+																	<option>--Pilih disini--</option>
+																	<option>Informasi Promo</option>
+																	<option>Test Drive</option>
+																	<option>Informasi Dealer Terdekat</option>
+																	<option>Lainnya</option>
+																</select>
+															</div>
+															<!-- <div class="form-group">
 																<div class="form-check">
 																	<input class="form-check-input" type="checkbox" id="gridCheck">
 																	<label class="form-check-label" for="gridCheck">
 																		Bersedia  menerima newsletter Kumala Group
 																	</label>
 																</div>
-															</div>
+															</div> -->
 															<button type="submit" class="button button-3d button-small button-rounded button-red">Minta Penawaran</button>
 														</form>
 													</div>
