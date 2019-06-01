@@ -1540,7 +1540,7 @@
 	.container,
 	.container-fullwidth {
 		width: 100% !important;
-		/* padding-left: 40px !important; */
+		/* padding-left: 40px !important;  ini di hapus*/
 		padding-right: 40px !important;
 	}
 	#header.full-header .container{
