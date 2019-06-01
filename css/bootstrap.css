@@ -196,7 +196,7 @@ figure {
 }
 
 img {
-  vertical-align: middle;
+  /* vertical-align: middle; */
   border-style: none;
 }
 
@@ -470,6 +470,7 @@ mark,
   display: block;
   font-size: 80%;
   color: #6c757d;
+  margin-top: -15px;
 }
 
 .blockquote-footer::before {
